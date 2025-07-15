@@ -35,11 +35,12 @@ body{
     border-radius: 0 0 0.5em 0.5em;
     color: #FAE5D1;
     padding: 1.2rem ;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bold;
     list-style-type: none;
-            box-shadow: 3px 1px 10px -0 #a07360;
-
+    box-shadow: 3px 1px 10px -0 #a07360;
+    text-align: center; 
+    width: 16%;
 }
 /* -------------------main------------------------ */
 main{
@@ -48,7 +49,7 @@ main{
     flex-wrap: wrap; 
     padding: 6rem 3rem 4rem 3rem;
     width: 100%;
-    gap: 13%;
+    gap: 10%;
 }
 
 .card{
@@ -203,6 +204,7 @@ h4{
         text-align: center;
         padding: 0.5rem ;
         box-shadow: none;
+        width: 100%;
     }
 
     main{
@@ -266,6 +268,13 @@ h4{
 }
 
 @media screen and (769px <= width <= 1024px){
+    .nav_header li{
+        height: 4.4rem;
+        align-items: center;
+        width: 18%;
+    }
+
+
     main{
         padding: 6rem 1.5rem 4rem 1.5rem;
         width: 100%;
