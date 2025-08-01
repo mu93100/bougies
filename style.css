@@ -70,7 +70,9 @@ main{
     margin-bottom: 5rem;
     box-shadow: 5px 3px 15px -1px #AC7961;
 }
-
+.product_text{
+    flex: 1;
+}
 h2{
     font-weight: 600;
     font-size: 1.3em;
@@ -100,7 +102,7 @@ h2 span{
     text-align: start;
     color: #AC7961;
     font-size: 1.4em;
-    padding-left: 01em;
+    padding-left: 1em;
 }
 
 .price{
